@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFC107</color>
+    <color name="colorPrimaryDark">#7fb1c8</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="textclr">#fffbfd</color>
+    <color name="bk">#7fb1c8</color>
+    <color name="radio">#0a010a</color>
+
+</resources>

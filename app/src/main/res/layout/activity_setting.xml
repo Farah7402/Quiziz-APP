@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#412243"
+    tools:context=".SettingActivity">
+
+    <include
+        layout="@layout/setting_layout"
+        android:id="@+id/main_app_bar">
+
+    </include>
+
+
+    <Switch
+        android:id="@+id/switchMusic"
+        android:layout_width="84dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="213dp"
+        android:checked="true"
+        android:paddingTop="18dp"
+        android:textColor="@android:color/white"
+        android:textOff="Music OFF"
+        android:textOn="Music ON"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/switchMusic"
+        android:layout_marginStart="20dp"
+        android:text="Sound"
+        android:textColor="@android:color/white"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
